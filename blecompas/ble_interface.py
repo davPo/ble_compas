@@ -9,7 +9,7 @@ from time import sleep, strftime, time
 from bleak import BleakClient, discover
 from bleak.uuids import uuid16_dict
 
-from ble_compas.helper import *
+from blecompas.helper import *
 
 uuid16_dict = {v: k for k, v in uuid16_dict.items()}
 

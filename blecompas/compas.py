@@ -1,4 +1,4 @@
-from ble_compas.helper import Vector
+from blecompas.helper import Vector
 
 class Compas():
     def __init__(self):
